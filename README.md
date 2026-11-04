@@ -2,6 +2,17 @@
 
 End-to-end system for monitoring a DV10 ventilation unit via Modbus → ESP32-POE → MQTT → QuestDB → FastAPI → Web Dashboard and Grafana.
 
+> **About this repository**
+> Group project from the IT Technology programme at UCL. This is my fork of the team's repository
+> ([original](https://github.com/Amir804-cell/iot-monitoring_V2)).
+>
+> **My role:**
+> - Project management
+> - System architecture design
+> - Backend (FastAPI + Uvicorn)
+> - End-to-end integration and testing
+> - Lead author of the documentation (see `docs/`)
+
 ## Architecture
 
 - **Field device**: DV10 ventilation unit (Modbus RTU)
